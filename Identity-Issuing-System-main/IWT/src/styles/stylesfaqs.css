@@ -1,0 +1,135 @@
+/*body.f
+{
+	background-image:url("C:/Users/USER/Desktop/IWT/src/images/pic5.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	font-family:Times;
+	font-size:18px;
+	background-position: center;
+}*/
+
+form
+{
+	margin:40px;
+	padding:20px;
+}
+
+
+input[type=submit]
+{
+
+
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+    
+}
+
+input[type=text] {
+  border: 2px solid orange;
+  border-radius: 4px;
+}
+
+input[type=email]
+ {
+  border:2px solid orange ;
+  border-radius: 4px;
+}
+
+input[type=date] 
+{
+  border: 2px solid orange;
+  border-radius: 4px;
+}
+
+#faq
+{
+	background-image:url("C:/Users/USER/Desktop/IWT/src/images/pp.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+
+}
+
+/*h4
+{
+	color:Orange;
+	font-size:20px;
+}*/
+
+#qq
+{
+	color:OrangeRed;
+	font-family: 'Trebuchet MS', sans-serif;
+	
+}
+
+/*h2
+{
+	color:maroon;
+	
+}*/
+ul
+{
+	color:SaddleBrown;
+	margin:40px;
+
+}
+
+fieldset
+{
+	margin:40px;
+	margin-top:10px;
+	margin-bottom:20px;
+	border-radius:20px;
+	border-color:red;
+
+}
+
+#sss {
+  padding: 5px;
+  border-radius: 4px;
+  background-color:#FBFCFC;
+  border:2px solid orange;
+  width:250px;
+}
+
+.buttonF{
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color:#F39C12;
+  color:black;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+button:hover{
+    transform:scale(1.1);
+}
+
+.active {
+  background-color: #F39C12;
+}
+
+.search-bar {
+  padding: 5px;
+  border-radius: 5px;
+  background-color:#FBFCFC;
+  border-color:black !important;
+}
+
+.sq li{
+	font-size:20px;
+	font-family: 'Open Sans';
+}
+
+.h2c{
+	font-family: 'Trebuchet MS', sans-serif;;
+}

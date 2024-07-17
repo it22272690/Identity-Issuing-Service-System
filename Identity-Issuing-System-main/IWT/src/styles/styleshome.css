@@ -1,0 +1,341 @@
+/*CSS for header part begins here...*/
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #F7DC6F;
+  padding: 10px;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  border-bottom: 2px solid #D98880;
+  z-index: 999;
+}
+
+.logo {
+  height: 100px; 
+}
+
+.logo:hover{
+    transform:scale(1.1);
+}
+
+.header-content {
+  margin-left: 10px;
+}
+
+.title {
+  font-size: 24px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+.subtitle {
+  font-size: 16px;
+  text-align: left;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.navigation {
+  list-style: none;
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 10px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color:#000;
+  padding: 5px;
+  border-radius: 5px;
+  /*background-color: #F8C471;*/
+}
+
+.navigation li a:hover {
+  background-color: #F39C12;
+  color: #fff;
+}
+
+.user-section {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.signin-button, .signup-button {
+  margin-right: 5px;
+  border-radius: 20px;
+  padding: 5px 10px;
+  background-color:#F39C12;
+  text-decoration:none;
+  color:black;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.signin-button:hover{
+    transform:scale(1.1);
+}
+
+.signup-button:hover{
+    transform:scale(1.1);
+}
+
+.user-profile {
+
+}
+
+.user-profile:hover{
+    transform:scale(1.1);
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.search-bar {
+  padding: 5px;
+  border-radius: 5px;
+  background-color:#FBFCFC;
+}
+
+.search-button {
+  margin-left: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color:#F39C12;
+  color:black;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.search-button:hover{
+    transform:scale(1.1);
+}
+
+.active {
+  background-color: #F39C12;
+}
+
+/*CSS for header part ends here...*/
+
+/*css for the body content begins here*/
+.main1img{
+	float:left;
+	height:200px;
+	width:20%;
+}
+
+.main1img:hover{
+    transform:scale(1.05);
+}
+
+.main1{
+	float:right;
+	width:78%;
+	height:200px;
+	font-size:20px;
+}
+
+.main2{
+	float:center;
+	width:78%;
+	height:200px;
+	font-size:20px;
+}
+
+.main2img{
+	float:right;
+	height:200px;
+	width:20%;
+}
+
+.main2img:hover{
+    transform:scale(1.05);
+}
+
+.review-container {
+    display: flex;
+}
+    
+.review-column {
+    flex: 1;
+    padding: 20px;
+	background-color:#FBEEE6;
+	outline: 2px solid #D98880;
+	text-align: center;
+	text-justify: inter-word;
+	border-radius:10px;
+	font-family: Verdana, sans-serif;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.review-column:hover{
+    transform:scale(1.01);
+}
+    
+.stars {
+    color: orange;
+    font-size: 24px;
+}
+
+/*Slider begins here*/ 
+.slider{
+    overflow: hidden;	
+	z-index: 1;
+ }
+ .slider figure{
+   position: relative;
+   width: 500%;
+   margin: 0;
+   animation:15s slider infinite; 
+ }
+ 
+ .slider figure img{
+   width: 20%;
+   float:left;
+ }
+ .slide{
+   /*height: 500px;
+   width: 900px;*/
+   height:100%;
+   width: 1000px;
+   /*margin-left:200px;*/
+   margin-top:125px;
+   margin-bottom:0px;
+ }
+ @keyframes slider{
+   0%{
+     left: 0;
+   }
+   20%{
+     left: 0;
+   }
+   25%{
+     left: -100%;
+   }
+   45%{
+     left: -100%;
+   }
+   50%{
+     left: -200%;
+   }
+   70%{
+     left: -200%;
+   }
+   75%{
+     left: -300%;
+   }
+   95%{
+     left: -300%;
+   }
+   100%{
+     left: -300%;
+   }
+ }
+/*Slider ends here*/
+
+.newbody{
+	background-color:#FCF3CF;
+	/*background-color: linear-gradient(to right, #F9E79F , #FAD7A0);*/
+	/*background-image: url('C:\Users\thima\OneDrive\Desktop\IWT\src\images\bgimg.jpg');*/
+	/*background-size: cover;*/
+}
+
+.styled-hr {
+  border: none;
+  height: 2px;
+  background-color: #E59866;
+}
+/*css for the body content ends here*/
+
+/*CSS for footer part begins here...*/
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.column {
+  flex: 1;
+  text-align: left;
+}
+
+.column h3 {
+  margin-bottom: 10px;
+}
+
+.column p{
+  margin-bottom: 5px;
+}
+
+.column img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.cr{
+	background-color:#ECF0F1;
+}
+
+.popup{
+
+}
+
+.popup:hover{
+    transform:scale(1.5);
+}
+
+/*overlay hover on image*/
+.container {
+  position: relative;
+  width: 300px; /* Adjust this value to match your image width */
+}
+
+.container:hover .text {
+  opacity: 1;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  transition: opacity 0.3s ease;
+}
+/*overlay*/
+
+.column a:hover {
+    color: orange !important;
+}
+
+
+/*CSS for footer part ends here...*/

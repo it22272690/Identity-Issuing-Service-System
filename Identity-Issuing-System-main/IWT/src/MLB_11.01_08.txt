@@ -1,0 +1,45 @@
+Project Group ID: MLB_11.01_08
+Batch No: Y1.S2.WD.IT.11.01
+Topic: Identity Issuing Service (Eg: NIC, Driving License, Passport)
+Project link: //This will be attached to the IWT/src/ folder.
+
+<<Group member details>>
+
+Member Id: IT22601506
+Member name: COSTA N.T.I.
+Contact no: 0716814335
+Email address: IT22601506@my.sliit.lk
+Implemented Functions: 
+1. Designed and coded Home Page, Sign In Page and Sign Up Page using html,css and javascript.
+2. CRUD operation for the Sign In and Sign Up Page using php and mysql.
+
+Member Id: IT22586384
+Member name: WADUGE S.W.O.P.K.
+Contact no: 0711444629
+Email address: IT22586384@my.sliit.lk
+Implemented Functions:
+1. Designed and coded Payment Gateway Page and About Us Page using html,css and javascript.
+2. CRUD operation for the Payment Gateway Page using php and mysql.
+
+Member Id: IT22167446
+Member name: FERNANDO B.T.D.
+Contact no: 0742765396
+Email address: IT22167446@my.sliit.lk
+Implemented Functions:
+1. Designed and coded News Page, Copy NIC Page and Edit NIC Page using html,css and javascript.
+2. CRUD operation for the Edit Nic Page and Copy Nic Page using php and mysql.
+
+Member Id: IT22272690
+Member name: GUNASINGHE S.N.
+Contact no: 0740035353
+Email address: IT22272690@my.sliit.lk
+Implemented Functions:
+1. Designed and coded FAQs Page, New NIC Page, Edit NIC Page using html,css and javascript.
+2. CRUD operation for the New Nic Page and Edit Nic Page using php and mysql.
+
+Member Id: IT22896636
+Member name: SHENALI L.A.I.
+Contact no: 0772790071
+Email address: IT22896636@my.sliit.lk
+Implemented Functions:
+1. Designed and coded Contact Us Page, Services Page using html,css and javascript.

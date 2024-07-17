@@ -1,0 +1,92 @@
+body{
+	/*background-color:#F7F9F9;*/
+	background-image: linear-gradient(to right, #F9E79F , #FAD7A0);
+	
+}
+
+.form-container {
+    border: 2px solid black;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+	border-radius:10px;
+   background-color:#ECF0F1;
+}
+
+.form-title {
+    text-align: center;
+	font-family: Verdana, sans-serif;
+}
+
+.form-content {
+    margin-top: 20px;
+	font-family: Verdana, sans-serif;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.form-field {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="password"],
+input[type="checkbox"] {
+    width: 96%;
+    padding: 5px;
+	border-radius:5px;
+}
+
+input[type="submit"]{
+    width: 60%;
+    padding: 5px;
+	background-color: #229954;
+	border-radius:10px;
+}
+
+
+.signup-link {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.signup-link a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.signup-link a:hover {
+    color: blue;
+}
+
+
+button[type="submit"] {
+  width: 50%;
+  padding: 10px;
+  background-color: #229954;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius:10px;
+}
+button[type="submit"]:hover{
+	background-color:#138D75;
+	transform:scale(1.1);
+}
+/*changes after crud & phps*/
+.newsubbtn{
+	
+}
+
+
+.newsubbtn:hover{
+	transform: scale(1.05);
+    background-color: #ff0000;
+}

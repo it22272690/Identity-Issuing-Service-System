@@ -1,0 +1,141 @@
+<!DOCTYPE html>  
+<html>
+<head>
+<link rel="stylesheet"  href="styles\stylescopynic.css">
+<title>COPY NIC</title>
+
+<link rel="icon" type="image/x-icon" href="images\titalpic.png"> 
+  
+  <link rel="stylesheet" type="text/css" href="styles\templatecss.css">
+  <script>function myFunction(){
+  
+  alert("Form Submitted Successfully");
+  }</script>
+    <script src="js\jshome.js"></script>
+</head>
+<br><br><br><br>
+
+<body style="background-image: linear-gradient(to right, #F9E79F , #FAD7A0);">
+
+ <!-- Header begins --->
+  <header>
+    <img src="images\logo.png" alt="logo" class="logo">
+    <div class="header-content">
+      <h1 class="title">DEPARTMENT FOR REGISTRATION OF PERSONS</h1>
+      <p class="subtitle">Democratic Socialist Republic of Sri Lanka</p>
+	  <br>
+      <nav>
+        <ul class="navigation">
+          <li><a href="home.html" >HOME</a></li>
+          <li><a href="aboutus.html">ABOUT US</a></li>
+          <li><a href="services.html"class="active" >SERVICES</a></li>
+          <li><a href="news.html" >NEWS</a></li>
+          <li><a href="faqs.html">FAQs</a></li>
+          <li><a href="contactus.html">CONTACT US</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="user-section">
+      <button class="signin-button"><a href="signin.html" style="text-decoration:none;color:black;"><b>Sign In</b></a></button>
+      <button class="signup-button"><a href="signup.html" style="text-decoration:none;color:black;"><b>Sign Up</b></a></button>
+	  <a href="profile.php" style="text-decoration:none;"><img src="images\userpic.png" width=35px height=35px class="user-profile"></a>
+    </div>
+    <div class="search-section">
+      <input type="text" class="search-bar" placeholder="Search">
+      <button class="search-button" onclick="searchPage()"><b>Search</b></button>
+    </div>
+  </header>
+  <!-- Header ends --->
+  <br><br>
+<form method="post" onsubmit="myFunction()" action="copy_nic.php" enctype="multipart/form-data">
+<center><h2 style="font-family: Arial, sans-serif;">COPY NIC FORM</h2></center> 
+<br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<b>1.Lost or last obtained identity card number </b>
+<input type="text" name="card_no">
+
+<br><br><br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<b>2.Date of the issue of identity card </b>
+<input type ="date" name ="issuedate">
+<br><br><br><br>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<b>3.A certified police report to prove the lost </b><br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="file" id="my file" name="policefile">
+<br><br><br>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<b>4.A certified letter from grama niladhari</b><br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="file" id="my file" name="gramafile">
+<br><br><br>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<b>5.Upload the photograph here</b><br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="file" id="my file" name="photofile" > <br><br><br>
+
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<b>Declaration of the applicant </b>
+<ol type="i">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<li> I hereby declare that the particulars given above are true and accurate to the best of my knowledge and belief. </li><br>
+<li> I do hereby certify that all the documents furnished along with this appication form are true and accurate to the best of my knowledge and aware of the fact that furnishing of incorrect details, information or documents is a punishable offence. </li>
+</ol><br>
+<p align="left"><input type="checkbox" id="agree" name="agree" required>I Agree</p>
+<br><br>
+<p align="center" ><input type="Submit" id="submitbtn" value="submit"></p>
+</form>
+
+<footer class="footer">
+    <div class="column">
+      <h3>GET TO KNOW US</h3>
+      <p>&nbsp &nbsp <a href="maintenance.html" style="text-decoration:none; color:white;"> About DFROP </a></p>
+      <p>&nbsp &nbsp <a href="maintenance.html" style="text-decoration:none; color:white;"> Privacy Policy </a></p>
+      <p>&nbsp &nbsp <a href="maintenance.html" style="text-decoration:none; color:white;"> Terms and Conditions </a></p>
+    </div>
+    <div class="column">
+      <h3>LET US ASSIST YOU</h3>
+      <img src="images\tele.png" alt="telephone" class="popup">
+      0115226100<br>
+      <img src="images\email.png" alt="email" class="popup">
+      <a href="maintenance.html" style="text-decoration:none; color:white;">info@DFROP.lk</a><br>
+      <img src="images\fax.png" alt="fax" class="popup">
+      0112862290
+    </div>
+    <div class="column">
+    <h3>FOLLOW US ON</h3>
+      <a href="https://www.facebook.com/"><img src="images\fb.png" alt="fb" class="popup"></a>
+	  <a href="https://www.youtube.com/"><img src="images\yt.png" alt="yt" class="popup"></a>
+	  <a href="https://www.instagram.com/"><img src="images\ig.png" alt="ig" class="popup"></a>
+	  <a href="https://www.twitter.com"/><img src="images\tw.png" alt="tw" class="popup"></a><br><br>
+      <h3>WE ACCEPT</h3>
+      <img src="images\visa.png" alt="visa" style="width:28px;" class="popup">
+	  <img src="images\mc.png" alt="mc" style="width:28px;" class="popup">
+	  <img src="images\ax.png" alt="ax" style="width:28px;" class="popup">
+	  <img src="images\discover.png" alt="discover" style="width:28px;" class="popup">
+    </div>
+    <div class="column">
+      <h3>QUICK LINKS</h3>
+      <p>&nbsp &nbsp <a href="aboutus.html" style="text-decoration:none; color:white;">ABOUT US</a></p>
+      <p>&nbsp &nbsp <a href="services.html" style="text-decoration:none; color:white;">SERVICES</a></p>
+	  <p>&nbsp &nbsp <a href="news.html" style="text-decoration:none; color:white;">NEWS</a></p>
+	  <p>&nbsp &nbsp <a href="faqs.html" style="text-decoration:none; color:white;">FAQs</a></p>
+	  <p>&nbsp &nbsp <a href="contactus.html" style="text-decoration:none; color:white;">CONTACT US</a></p>
+    </div>
+    <div class="column">
+	<div class="container">
+	<a href="https://maps.google.com" target="_blank">
+    <img class="image" src="images\map.png" alt="Footer Image" style="height:150px; width:100%;">
+    <div class="text">Find us on Google Maps</div>
+	</a>
+	</div>
+    </div>
+  </footer>
+  <!-- Footer ends here -->
+  <div class="cr">
+  <center><b>COPYRIGHT © 2023 MLB_11.01_08</b></center>
+  <div>
+</body>
+</html>

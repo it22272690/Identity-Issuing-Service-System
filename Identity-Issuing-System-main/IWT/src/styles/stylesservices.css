@@ -1,0 +1,108 @@
+/*Begin services page...*/
+
+/**/
+/*body
+{	
+	margin-top: 10px;
+	font-family:sans-serif;
+	background-color:#F9E79F;
+
+}*/
+
+/**/
+/*h2
+{
+	font-family: ui-serif;
+	text-align: center;
+	font-size: 40px;
+	padding-top: 10px;
+
+}*/
+
+.qt
+{
+	margin-bottom: 5px;
+	font-family: cursive;
+	font-size: 20px;
+}
+
+/**/
+/*p
+{
+	text-align: center;
+	justify-content: space-between;
+	padding: 25px;
+	color: #6e6c67;
+}*/
+
+.container1 {
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  position: relative;
+  width: 22vw;
+  height: 22vh;
+  margin: 20px;
+  margin-bottom:0px;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12), 0 10px 10px rgba(0, 0, 0, 0.12);
+  background-color: #e5ca75;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+
+.content:hover{
+	transform:scale(1.1);
+}
+/*error in here*/
+/*padding
+{	
+	
+	text-align: center;
+	color: #8217c8;
+	
+}*/
+
+/*need a class*/.buttonx
+{
+	text-align: center;
+	font-size: 15px;
+	color: white;
+	padding: 10px 20px;
+	border: 1px;
+	cursor: pointer;
+	/*margin-top: 20px;*/
+	margin-bottom: 20px;
+	border-radius: 40px;
+	background-color: #2ECC71;	
+}
+
+/* When moving the mouse over the button */
+/*need a class*/.buttonx:hover
+{
+	background-color:#239B56;
+	color: white;
+}
+
+/*Need a help...*/
+
+.helpbutton
+{
+	position: relative;
+	top: 350px;
+	left: 520px;
+	background-color:#F9E79F;
+	border: none;
+	padding-top: 10px;
+	cursor: pointer;
+	
+}
+
+/*End of services page...*/
+

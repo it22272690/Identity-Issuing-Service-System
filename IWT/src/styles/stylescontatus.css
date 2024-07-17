@@ -1,0 +1,195 @@
+/*Begining of Contact us page...*/
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color:#F9E79F;
+}
+
+
+.topic
+{
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+h4
+{
+	font-family: cursive;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+#box_white
+{
+	margin-top: 20px;
+	background-color: #F9E79F;
+	width:60%;
+	height: 620px;
+	float: left;
+}
+
+#box_blue
+{
+	margin-top: 20px;
+	background-color: #7dd5de;
+	width: 40%;
+	height: 620px;
+	float: right;
+}
+
+/*Contact details...*/
+.scroll
+{
+	position: relative;
+	right: float;
+	margin-bottom:10px;
+	margin-left: 15px;
+	width: 700px; 
+	height: 600px; 
+	overflow: scroll;
+	border: none; 
+	padding: 5px;
+	background-color:#f1d16c;
+	scrollbar-color: #f1d16c;
+}
+
+.des
+{
+	font-family: calibri;
+	font-size: 25px;
+	font-weight:bold;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.content
+{
+	font-family: Lucida Sans Unicode;
+	text-align: left;
+	line-height: 2em;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+ul
+{
+	list-style: none;
+	display: table;
+	margin: 0;
+	padding: 0;
+}
+
+li
+{
+	display: table-row;
+	margin: 0;
+	padding: 0;
+	
+}
+
+b
+{
+	display: table-cell;
+	padding: 0.5em;
+}
+
+/*Contact us form...*/
+.contact_form-container input 
+{
+	border: 12px;
+	outline: none;
+	height: 35px;
+	width: 350px;;
+	margin: 10px 0;
+	  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.55);
+			  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.45);
+	padding-left: 15px;
+	font-size: 13px;
+	font-family: Tahoma;
+	border-radius: 5px;
+
+}
+
+.req
+{
+	text-align: center;
+	margin-top: 15px;
+	margin-left: 10px;
+	font-size: 30px;
+	font-family: Arial;
+}
+
+.form
+{
+	position: relative;
+	float : center;
+	margin-top: 35px;
+}
+
+.message_input
+{
+	padding-bottom: 75px;
+
+}
+
+.contact_form-container 
+{
+  padding: 20px 15px 60px 0;
+}
+
+.contact_form-container button 
+{
+	border: none;
+	background-color: #fd9e2e;
+	color: #fff;
+	padding: 15px 20px;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin-top: 35px;
+}
+
+/* When moving the mouse over the button */
+.contact_form-container button:hover
+{
+	cursor: pointer;
+}
+
+h3
+{
+	margin-top: 30px;
+	margin-left: 15px;
+
+}
+
+/*Successful alert...*/
+.alert 
+{
+  padding: 20px;
+  margin-top: 5px;
+  background-color: #04AA6D;
+  color: white;
+    transition: opacity 1.6s;
+}
+
+.closebtn 
+{
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover 
+{						
+  color: black;
+}
+
+

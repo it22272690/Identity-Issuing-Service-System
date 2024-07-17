@@ -1,0 +1,96 @@
+/*body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}*/
+body{
+	/*background-color:#F7F9F9;*/
+	/*background-image: url('');*/
+	background-image: linear-gradient(to right, #F9E79F , #FAD7A0);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-bottom:-100px;
+  font-family: Verdana, sans-serif;
+}
+
+.signin-form {
+  width: 400px;
+  border: 2px solid black;
+  padding: 20px;
+  /*text-align: center;*/
+  border-radius:10px;
+  background-color:#ECF0F1;
+}
+
+
+h2 {
+  margin-top: 0;
+}
+
+/*error fixed*/
+.newtext{
+  width: 94%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius:5px;
+}
+
+input[type="password"] {
+  width: 94%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius:5px;
+}
+
+.remember-me {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  width: 50%;
+  padding: 10px;
+  background-color: #229954;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius:10px;
+}
+button[type="submit"]:hover{
+	background-color:#138D75;
+	transform:scale(1.1);
+}
+
+/*.signup-text {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.forgot-password {
+  float: right;
+  margin-top: 10px;
+}*/
+
+.newlink{
+	text-decoration:none;
+	color:black;
+}
+
+.newlink:hover{
+	color:blue;
+}
+
+.btnsignin
+{
+  width: 50%;
+  padding: 10px;
+  background-color: #229954;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius:10px;

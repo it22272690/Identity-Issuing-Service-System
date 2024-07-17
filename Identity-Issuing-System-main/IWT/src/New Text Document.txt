@@ -1,0 +1,1 @@
+ALTER TABLE registered_user AUTO_INCREMENT = 1;
